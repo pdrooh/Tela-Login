@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Analista</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1 class="title">Registro de Analista</h1>
+            <form id="registerForm">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Nome</label>
+                    <i data-lucide="user" class="input-icon"></i>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                    <i data-lucide="mail" class="input-icon"></i>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Senha</label>
+                    <i data-lucide="lock" class="input-icon"></i>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="confirm-password" required>
+                    <label for="confirm-password">Confirmar Senha</label>
+                    <i data-lucide="lock" class="input-icon"></i>
+                </div>
+                <button type="submit" class="login-button">
+                    <span>Registrar</span>
+                </button>
+            </form>
+            <div class="options">
+                <a href="index.html" class="back-to-login">Voltar para Login</a>
+            </div>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

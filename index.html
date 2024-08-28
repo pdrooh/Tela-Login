@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central do analista - Ikatec</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1 class="title">Central do Analista</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                    <i data-lucide="mail" class="input-icon"></i>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Senha</label>
+                    <i data-lucide="lock" class="input-icon"></i>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" class="neon-checkbox">
+                    <label for="remember">Lembrar-me</label>
+                </div>
+                <button type="submit" class="login-button">
+                    <span>Entrar</span>
+                </button>
+            </form>
+            <div class="options">
+                <a href="forgot-password.html" class="forgot-password">Esqueceu a senha?</a>
+                <a href="register.html" class="register">Registrar</a>
+            </div>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
